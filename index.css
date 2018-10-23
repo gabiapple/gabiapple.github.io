@@ -1,0 +1,14 @@
+.jumbotron{
+    background-color: #f24242; !important
+}
+
+.titulo-secao{
+    border-bottom: 1px solid black;
+}
+
+.page-header{
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    margin-top: 40px;
+    border-bottom: 1px solid #eee;
+}
