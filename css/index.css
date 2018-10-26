@@ -1,14 +1,19 @@
-.jumbotron{
+.jumbotron {
     background-color: #f24242; !important
 }
 
-.titulo-secao{
+.titulo-secao {
     border-bottom: 1px solid black;
 }
 
-.page-header{
+.page-header {
     padding-bottom: 9px;
     margin: 40px 0 20px;
     margin-top: 40px;
     border-bottom: 1px solid #eee;
+}
+
+body {
+    background-color: #eee;
+    background-image: url(images/blockas.jpg);
 }
