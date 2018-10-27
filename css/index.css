@@ -1,5 +1,6 @@
 .jumbotron {
-    background-color: #f24242; !important
+    background: rgb(200, 54, 54) !important;; /* This is for ie8 and below */ 
+    background: rgba(200, 54, 54, 0.2) !important;
 }
 
 .titulo-secao {
@@ -14,6 +15,23 @@
 }
 
 body {
-    background-color: #eee;
-    background-image: url(images/blockas.jpg);
+    /* background-image: url(../images/blocks.jpg); */
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+#iniciacao {
+    width: 15%;
+    height: 10%;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    margin: 10px 0px 10px 0px;
+    display: block;
+}
+
+.projeto {
+    padding-bottom: 10px;
 }
